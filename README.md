@@ -1,4 +1,4 @@
-# Octapad-MODEP Initial Setting Guide
+# Launchpad-MODEP Initial Setting Guide
 
 ## 1. Install Patchbox
 Read [Patchbox OS Documentation](https://blokas.io/patchbox-os/docs/install-os-to-sd-card/)
