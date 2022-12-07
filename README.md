@@ -55,7 +55,24 @@ in SendMIDI/Builds
 cp build/sendmidi ~/
 ```
 
-#### copy this guide shell files
+#### copy layout setting shell files 
 ```
-cd {this}
+cd <this_guide_folder>/session_launch.sh
+cd <this_guide_folder>/user1_launch.sh
+```
 
+#### register layout setting on boot
+```
+crontab -e
+```
+```
+@reboot sh /home/patch/user1_launch.sh
+or
+@reboot sh /home/patch/session_launch.sh
+```
+
+## 4. Pedalboard
+Now just make pedalboard in MODEP!
+
+Below image is sample for lighting on note on
+![Pedalboard Sample](./midi_sample.png)
